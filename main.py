@@ -30,6 +30,7 @@ def set_difficulty():
     return EASY_LEVEL
   else:
     print("Wrong choice select the correct Choice")
+    return set_difficulty()
 
 # Playing game function
 def game():
